@@ -1,0 +1,61 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <h1>Dharamshala Booking</h1><br/>
+      <h3>Contact Person For Booking : </h3>
+      <h4>Madan Lal Sah : <span><a href="8987053701" class='white'>+91-8987053701</a></span></h4>
+      <h4>Ganesh Guide : <span><a href="7631561880" class='white'>+91-7631561880</a></span></h4><br/>
+      <h3>Facilities : </h3>
+      <h4>2 Hall, 1 Store Room<br/>2 Bathroom, 1 Hand-Pump<br/>Electricity, Fan</h4><br/>
+      <h3>Charges : </h3>
+      <h4>1 Hall for 1 day - 600/-</h4>
+      <h4>2 Hall for 1 day - 1100/-</h4>
+      <h4><a href="mailto:thakurbarimandirfalka@gmail.com" class='white'>thakurbarimandirfalka@gmail.com</a></h4>
+    </div>
+    <div class="col-md-6">
+      <h3>Book Dharamshala</h3>
+      <form method="post" id='dharamshala-booking-form'>
+        <div class="form-group">
+          <label>Name</label>
+          <input class="form-control" type="text" required autocomplete="off" id='dsbname'>
+        </div>
+        <div class="form-group">
+          <label>Contact Number</label>
+          <input class="form-control" type="text" required autocomplete="off" id='dsbnumber'>
+        </div>
+        <div class="form-group">
+          <label>Booking Reason</label>
+          <select class="form-control" id='dsbreason'>
+            <option>Marriage</option>
+            <option>Reception</option>
+            <option>Meeting</option>
+            <option>Camp</option>
+            <option>Personal Guest</option>
+            <option>Birthday Celebrations</option>
+          </select>
+        </div>
+        <div class="input-single width_100">
+          <label>Select Date For Booking</label><br/>
+          <label>From :</label><input class="form-control width_100" id='dsbfromdate' type="date" required autocomplete="off">
+        </div>
+        <div class="input-single width_100">
+          <label>To : </label><input class="form-control width_100" id='dsbtodate' type="date" required autocomplete="off">
+        </div>
+        <div class="form-group margin_t10">
+          <label>Email Address</label>
+          <input class="form-control" id='dsbemail' type="email" required autocomplete="off">
+        </div>
+        <div class="form-group">
+          <label>Message</label>
+          <textarea rows='4' class="form-control" id='dsbmessage' type="text" required autocomplete="off"></textarea>
+        </div>
+        <div class="contact-submit text-center margin_t10">
+          <button class="btn btn-primary btn-md bg_maroon" type="submit" id='dharamshala-booking-form-submit'>Submit</button>
+        </div>
+      </form>
+      <div>
+        <h3 class="text-center sucessmessage">Thank-You for Booking Dharamshala! We will contact you soon...</h3>
+      </div>
+    </div>
+  </div>
+</div>

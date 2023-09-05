@@ -1,0 +1,736 @@
+@font-face {
+	font-family: 'Merriweather-Bold';
+	src: url('../fonts/Merriweather-Bold/Merriweather-Bold.eot');
+	src: local('☺'), url('../fonts/Merriweather-Bold/Merriweather-Bold.woff') format('woff'), url('../fonts/Merriweather-Bold/Merriweather-Bold.ttf') format('truetype'), url('f../fonts/Merriweather-Bold/Merriweather-Bold.svg') format('svg');
+	font-weight: normal;
+	font-style: normal
+}
+@font-face {
+	font-family: 'Merriweather-Light';
+	src: url('../fonts/Merriweather-Light/Merriweather-Light.eot');
+	src: local('☺'), url('../fonts/Merriweather-Light/Merriweather-Light.woff') format('woff'), url('../fonts/Merriweather-Light/Merriweather-Light.ttf') format('truetype'), url('../fonts/Merriweather-Light/Merriweather-Light.svg') format('svg');
+	font-weight: normal;
+	font-style: normal
+}
+@font-face {
+	font-family: 'Merriweather-Regular';
+	src: url('../fonts/Merriweather-Regular/Merriweather-Regular.eot');
+	src: local('☺'), url('../fonts/Merriweather-Regular/Merriweather-Regular.woff') format('woff'), url('../fonts/Merriweather-Regular/Merriweather-Regular.ttf') format('truetype'), url('../fonts/Merriweather-Regular/Merriweather-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal
+}
+@font-face {
+	font-family: 'Roboto-Bold';
+	src: url('../fonts/Roboto-Bold/Roboto-Bold.eot');
+	src: local('☺'), url('../fonts/Roboto-Bold/Roboto-Bold.woff') format('woff'), url('../fonts/Roboto-Bold/Roboto-Bold.ttf') format('truetype'), url('../fonts/Roboto-Bold/Roboto-Bold.svg') format('svg');
+	font-weight: normal;
+	font-style: normal
+}
+@font-face {
+	font-family: 'Roboto-Light';
+	src: url('../fonts/Roboto-Light/Roboto-Light.eot');
+	src: local('☺'), url('../fonts/Roboto-Light/Roboto-Light.woff') format('woff'), url('../fonts/Roboto-Light/Roboto-Light.ttf') format('truetype'), url('../fonts/Roboto-Light/Roboto-Light.svg') format('svg');
+	font-weight: normal;
+	font-style: normal
+}
+@font-face {
+	font-family: 'Roboto-Regular';
+	src: url('../fonts/Roboto-Regular/Roboto-Regular.eot');
+	src: local('☺'), url('../fonts/Roboto-Regular/Roboto-Regular.woff') format('woff'), url('../fonts/Roboto-Regular/Roboto-Regular.ttf') format('truetype'), url('../fonts/Roboto-Regular/Roboto-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal
+}
+@font-face {
+	font-family: 'Calibre-Black';
+	src: url('../fonts/Calibre-Black/Calibre-Black.eot');
+	src: local('☺'), url('../fonts/Calibre-Black/Calibre-Black.woff') format('woff'), url('../fonts/Calibre-Black/Calibre-Black.ttf') format('truetype'), url('../fonts/Calibre-Black/Calibre-Black.svg') format('svg');
+	font-weight: normal;
+	font-style: normal
+}
+@font-face {
+	font-family: 'Calibre-Bold';
+	src: url('../fonts/Calibre-Bold/Calibre-Bold.eot');
+	src: local('☺'), url('../fonts/Calibre-Bold/Calibre-Bold.woff') format('woff'), url('../fonts/Calibre-Bold/Calibre-Bold.ttf') format('truetype'), url('../fonts/Calibre-Bold/Calibre-Bold.svg') format('svg');
+	font-weight: normal;
+	font-style: normal
+}
+@font-face {
+	font-family: 'Calibre-Light';
+	src: url('../fonts/Calibre-Light/Calibre-Light.eot');
+	src: local('☺'), url('../fonts/Calibre-Light/Calibre-Light.woff') format('woff'), url('../fonts/Calibre-Light/Calibre-Light.ttf') format('truetype'), url('../fonts/Calibre-Light/Calibre-Light.svg') format('svg');
+	font-weight: normal;
+	font-style: normal
+}
+@font-face {
+	font-family: 'Calibre-Regular';
+	src: url('../fonts/Calibre-Regular/Calibre-Regular.eot');
+	src: local('☺'), url('../fonts/Calibre-Regular/Calibre-Regular.woff') format('woff'), url('../fonts/Calibre-Regular/Calibre-Regular.ttf') format('truetype'), url('../fonts/Calibre-Regular/Calibre-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal
+}
+@font-face {
+	font-family: 'Calibre-Semibold';
+	src: url('../fonts/Calibre-Semibold/Calibre-Semibold.eot');
+	src: local('☺'), url('../fonts/Calibre-Semibold/Calibre-Semibold.woff') format('woff'), url('../fonts/Calibre-Semibold/Calibre-Semibold.ttf') format('truetype'), url('../fonts/Calibre-Semibold/Calibre-Semibold.svg') format('svg');
+	font-weight: normal;
+	font-style: normal
+}
+.iron {
+	color: #dbdcdd
+}
+.iron_clr {
+	color: #dbdcdd
+}
+.white {
+	color: #fff !important
+}
+.thunder {
+	color: #231f20 !important
+}
+.indigo {
+	color: #5f51cb
+}
+.maroon {
+	color: #760908;
+}
+.bg_iron {
+	background-color: #dbdcdd
+}
+.bg_indigo {
+	background-color: #5f51cb
+}
+.bg_white {
+	background: #fff
+}
+.bg_pickleBluewood {
+	background-color: #29364b
+}
+.bg_black {
+	background-color: #000
+}
+.bg-alto {
+	background-color: #d9d9d9
+}
+.bg_maroon {
+	background-color: #760908 !important;
+}
+.bg_trans {
+	background-color: transparent !important;
+}
+.border_none{
+	border: none !important;
+}
+.maxwidth_100 {
+	max-width: 100%
+}
+.width_100 {
+	width: 100%
+}
+.width_90 {
+	width: 90%
+}
+.width_85 {
+	width: 85%
+}
+.width_70 {
+	width: 70%
+}
+.width_60 {
+	width: 60%
+}
+.width_50 {
+	width: 50%
+}
+.width_45 {
+	width: 45%
+}
+.width_40 {
+	width: 40% !important
+}
+.width_25 {
+	width: 25%
+}
+.width_170 {
+	width: 170px
+}
+.pad_tb200 {
+	padding: 200px 0
+}
+.pad_tb150 {
+	padding: 150px 0
+}
+.pad_tb100 {
+	padding: 100px 0
+}
+.pad_tb70 {
+	padding: 70px 0
+}
+.pad_tb50 {
+	padding: 50px 0
+}
+.pad_tb10 {
+	padding: 10px 0 !important
+}
+.pad_l0 {
+	padding-left: 0px !important;
+}
+.pad_r0 {
+	padding-right: 0px !important;
+}
+.pad_t70 {
+	padding-top: 70px
+}
+.pad_20 {
+	padding: 20px
+}
+.pad_15 {
+	padding: 15px
+}
+.pad_0 {
+	padding: 0px
+}
+.margin_0 {
+	margin: 0px;
+}
+.margin_auto {
+	margin: 0 auto
+}
+.margin_t100 {
+	margin-top: 100px
+}
+.margin_t70 {
+	margin-top: 70px !important
+}
+.margin_t60 {
+	margin-top: 60px !important
+}
+.margin_t50 {
+	margin-top: 50px !important
+}
+.margin_t40 {
+	margin-top: 40px
+}
+.margin_t30 {
+	margin-top: 30px
+}
+.margin_t20 {
+	margin-top: 20px
+}
+.margin_t10 {
+	margin-top: 10px
+}
+.margin_l50 {
+	margin-left: 50px !important
+}
+.margin_l40 {
+	margin-left: 40px !important
+}
+.margin_l10 {
+	margin-left: 10px !important
+}
+.margin_l0 {
+	margin-left: 0px !important
+}
+.margin_l30 {
+	margin-right: 30px !important
+}
+.margin_l25 {
+	margin-left: 25% !important
+}
+.margin_l22 {
+	margin-left: 22%
+}
+.pos-sat {
+	position: static
+}
+.pos-rel {
+	position: relative
+}
+.pos-abs {
+	position: absolute
+}
+.pos-fix {
+	position: fixed
+}
+.font_32 {
+	font-size: 32px !important
+}
+.font_24 {
+	font-size: 24px !important
+}
+.font_22 {
+	font-size: 22px !important
+}
+.font_18 {
+	font-size: 18px !important
+}
+.font_16 {
+	font-size: 16px !important
+}
+.font_14 {
+	font-size: 14px !important
+}
+.font_12 {
+	font-size: 12px !important
+}
+.font_10 {
+	font-size: 10px !important
+}
+.lh_80 {
+	line-height: 80px !important
+}
+.lh_45 {
+	line-height: 45px
+}
+.lh_25 {
+	line-height: 25px
+}
+.ls_1 {
+	letter-spacing: 1px
+}
+.ls_01 {
+	letter-spacing: 0.1px
+}
+.ls_03 {
+	letter-spacing: 0.3px
+}
+.ls_05 {
+	letter-spacing: 0.5px
+}
+.inline-block {
+	display: inline-block !important
+}
+li {
+	list-style: none
+}
+/* .border-black {
+  border: 10px solid #fff !important;
+}
+.border-violet {
+  border: 10px solid #4e3d8c
+}
+.border-pink {
+  border: 10px solid #cb5796
+}
+.border-yellow {
+  border: 10px solid #fcd44d
+}
+.border-red {
+  border: 10px solid #df3e2f
+}
+.border-blue {
+  border: 10px solid #5268ac
+}
+.border-green {
+  border: 10px solid #a89e29
+}
+.border-orange {
+  border: 10px solid #de7c3c
+}
+.border-skyblue {
+  border: 10px solid #00D0D0;
+} */
+.navbar-inverse, .dropdown-menu {
+	background-color: #760908 !important;
+	border-color: #b86507 !important;
+}
+.navbar-nav li a {
+	color: #fff !important;
+	text-transform: uppercase;
+	font-size: 15px;
+	padding: 20px 15px 15px 15px !important;
+	font-weight: 100 !important;
+}
+.navbar-nav li:hover a, .navbar-nav li:focus a, .navbar-nav li:active a  {
+	border-bottom: 4px solid #fff;
+}
+.navbar-brand {
+	padding: 30px 15px !important;
+	text-transform: uppercase;
+	line-height: 0px !important;
+	color: #fff !important;
+	font-weight: 600;
+}
+.dropdown-menu li a {
+	padding: 10px !important;
+	background-color: #761c0c;
+}
+.dropdown-menu li:hover a {
+	background-color: #ad8e30 !important;
+}
+.navbar-nav li:hover a, .navbar-brand:hover,
+.navbar-nav li:active a, .navbar-brand:active,
+.navbar-nav li:focus a, .navbar-brand:focus {
+	color: /*#b86507*//*#c37407*/#fff !important;
+}
+.navbar-inverse .navbar-nav>.open>a {
+	background-color: transparent !important;
+}
+#border-design {
+	width: 100%;
+	background-color: #760908;
+	position: relative;
+	background-image: url(../images/floral.png);
+	background-repeat: repeat-x;
+	background-position: center;
+	height: 15px;
+}
+#about {
+	background: linear-gradient(0deg,rgba(255,255,255,0.90) 0,rgba(255,255,255,0.90) 100%),#CDE67B;
+	padding: 50px 0;
+}
+.about_title {
+	color: #283400;
+}
+#dharamshala {
+    color: #760908;
+    background: linear-gradient(220deg,rgba(255,255,255,0.90) 0,#c37407 100%),#c37407;
+}
+#navyuvasangh {
+	background: rgb(230, 231, 232)/*#7e1608*/;
+	color: #000 !important;
+	position: relative;
+}
+/*.aatmjyoti-member:nth-of-type(1n+4) {
+	overflow: hidden;
+}*/
+/*#donation, #navyuvasangh, #dharamshala, #about {
+	padding: 40px;
+}*/
+h1 {
+	font-family: "Roboto-Bold" !important;
+	font-size: 24px !important;
+	text-transform: uppercase;
+	margin-top: 0px !important;
+    margin-bottom: 20px !important;
+    font-weight: 700;
+}
+/* club members*/
+.aatmjyoti-member, .navyuvasangh-member {
+	/*width: 265px;*/
+	display: inline-block;
+	text-align: center;
+	background-color: transparent; /*#613629;*/
+	margin: 10px;
+	position: relative;
+}
+.aatmjyoti_member_info {
+    background: #0000005e;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.aatmjyoti-member a, .navyuvasangh-member a {
+	color: #8fe86e !important;
+	text-transform: capitalize;
+}
+.aatmjyoti-member h5, .navyuvasangh-member h5 {
+	color: #fff !important;
+	text-transform: uppercase;
+	font-family: "Roboto-Light";
+	padding: 0px 0;
+	font-size: 16px;
+	font-weight: bold;
+}
+.aatmjyoti-member-image, .navyuvasangh-member-image {
+	height: 300px;
+	width: 280px;
+	border-radius: 4px;
+	margin: 0px auto;
+}
+.aatmjyoti-member-image img , .navyuvasangh-member-image img{
+	height: inherit;
+	width: inherit;
+	border-radius: 0;
+}
+.carousel-control {
+	width: 10% !important;
+}
+.fb-icon {
+	height: 40px !important;
+	width: 40px !important;
+	border-radius: 0px !important;
+	display: inline-block !important;
+}
+.mandir-address, .copy-right-text, .copy-right-text b, address h5, #donation p, #navyuvasangh h3,
+#dharamshala h3, #dharamshala h4, .form-group label, .input-single label {
+	font-family: "Roboto-Light";
+}
+address h3, address h4, .navbar-nav li a, .dropdown-menu li a {
+	font-family: "Roboto-Bold";
+}
+#dharamshala h3 {
+	font-size: 18px;
+	font-weight: bold;
+}
+#dharamshala h4 {
+	font-size: 16px;
+}
+.donation-details {
+  background: rgba(62, 93, 65, 0.15);
+  padding: 50px;
+  box-shadow: 0px 2px 7px 2px rgba(10, 10, 10, 0.31);
+  display: inline-flex;
+}
+.donation-details-desc {
+	width: 60%;
+}
+.bank-account-details {
+	width: 40%;
+	padding-left: 50px;
+}
+.donation-details-desc, .bank-account-details {
+  font-family: "Roboto-Light";
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 28px;
+  color: #283400;
+}
+.about-desc {
+	font-family: "Roboto-Light";
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 28px;
+    background: rgba(62, 93, 65, 0.15);
+    padding: 50px;
+    box-shadow: 0px 2px 7px 2px #283400fc;
+    color: #283400;
+    border-radius: 8px;
+}
+address {
+	margin-top: -20px;
+}
+.social-icon span {
+	font-family: "Roboto-Light";
+	font-size: 12px;
+	color: #fff;
+}
+.social-icon a {
+  display: inline-block;
+  text-align: center;
+  color: #fff;
+  width: 100px;
+}
+.btn-primary {
+	outline: none !important;
+	border-color: white !important;
+}
+.form-control {
+	height: 35px !important;
+	padding: 4px 12px !important;
+}
+.navratra-dates p {
+	color: red;
+	line-height: 14px;
+}
+.navratra-dates p span {
+	color: blue;
+}
+#dharamshala-booking-form {
+	margin-top: 30px;
+}
+#ramnavmi21, #ramnavmi22, #ramnavmi23 {
+	display: none;
+	padding: 50px 0;
+}
+#left-slider-arrow, .owl-prev {
+	position: absolute;
+	top: 42%;
+	left: -45px;
+	/*background: #8dbae3;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	border-radius: 50%;
+	vertical-align: middle;*/
+	line-height: 50px;
+	/*background-image: url(../images/right-arrow.png);*/
+	background-repeat: no-repeat;
+}
+#right-slider-arrow, .owl-next {
+	position: absolute;
+	top: 42%;
+	right: -47px;
+	/*background: #8dbae3;*/
+	/*background-image: url(../images/left-arrow.png);*/
+	background-repeat: no-repeat;
+	/*width: 50px;
+	height: 50px;
+	text-align: center;*//*
+	background-size: cover;
+	background-position: 100%;*/
+	/*border-radius: 50%;*/
+	/*vertical-align: middle;*/
+	line-height: 50px;
+	content: none;
+}
+.aatmjyoti-member-list {
+	text-align: center;
+}
+.navyuvasangh-member-list {
+	text-align: center;
+}
+.tmDonationList123 {
+	text-align: center;
+}
+.mela-orgniser table tr td{
+	padding: 5px;
+}
+.donation-list {
+	width: 100%;
+}
+.donation_list_table_outer {
+	height: 500px;
+    overflow-y: scroll;
+    max-height: 500px;
+}
+.donation-list-table {
+	margin: 0 auto;
+	border: 1px solid #761c0cc4;
+	width: 100%;
+}
+.donation-list tr:nth-child(even), .donation-list thead tr {
+    color: #761c0c;
+    background: linear-gradient(220deg,rgba(255,255,255,0.90) 0,#c37407 100%),#c37407;
+}
+.donation-list tr:hover {
+	/*background: #761c0c;*/
+	background: #761c0cc4;
+	color: #d9942a;
+}
+.donation-list td {
+    padding: 10px 30px;
+    border: 1px solid #ccc;
+}
+.donation-list th {
+    padding: 10px 30px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+#dharamshala-booking-form-submit {
+	color: #fff;
+}
+.social-icon a:hover {
+	border-bottom: 2px solid #761c0c;
+	text-decoration: none;
+}
+.success-message {
+	display: none;
+	font-size: 18px;
+  font-weight: bold;
+}
+.error-message {
+	display: none;
+	font-size: 18px;
+    font-weight: bold;
+}
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+    background-color: transparent !important;
+}
+.hamburger-menu {
+	border: none !important;
+}
+.call-desc {
+    text-align: right;
+    margin-top: 18px;
+}
+
+.overlay-text {
+	color: #fff;
+    position: fixed;
+    z-index: 9999;
+    font-size: 64px;
+	top: 50%;
+	font-weight: bold;
+	text-shadow: 2px 2px red;
+    letter-spacing: 1px;
+	height: 79px;
+}
+section#donation {
+    background: linear-gradient(0deg,#F2EDFD 0,#F2EDFD 100%),linear-gradient(180deg,#322E3B 0,#272136 100%);
+}
+
+/* Media Query for mobile device*/
+@media only screen and (min-device-width : 320px) and (max-device-width : 767px){
+	.m_pad0 {
+		padding: 0 !important;
+	}
+	.carousel-inner>.item {
+		margin-top: 80px;
+	}
+	.carousel-control {
+		top: 70px !important;
+	}
+	iframe {
+		width: 100%;
+		margin: 15px auto;
+	}
+	.aatmjyoti-member, .navyuvasangh-member, .tmDonationList123 table {
+		margin: 0 auto;
+		display: block;
+	}
+	.donation-details, .about-desc {
+	  font-size: 14px;
+	  letter-spacing: 1px;
+	  line-height: 24px;
+	  padding: 10px;
+	  box-shadow: 0px 2px 7px 2px rgba(10, 10, 10, 0.31);
+	}
+	.bank-account-details {
+		width: 100%;
+		padding-left: 0;
+	}
+	.donation-details {
+	  display: block;
+	}
+	.donation-details-desc, .bank-account-details {
+		width: 100%;
+		font-size: 14px;
+	}
+	#right-slider-arrow, .owl-next {
+		right: 10px;
+	}
+	#left-slider-arrow, .owl-prev {
+		left: 10px;
+	}
+	.dharamshala-booking-block {
+		margin: 0 15px;
+	}
+	.donation-list td {
+	    padding: 2px 3px;
+	    font-size: 10px;
+	}
+	.donation-list th {
+	    padding: 10px 4px;
+	    font-size: 12px;
+		font-weight: bold;
+	}
+	.donation-list tr td {
+		padding: 5px 4px;
+		font-size: 12px;
+		font-weight: bold;
+		text-transform: uppercase;
+	}
+	#donation .container .donation-list {
+	    padding: 0;
+	    margin: 0;
+	    width: 100%;
+	}
+	#donation .container .donation-list .col-xs-12 {
+		padding-right: 0px;
+	    padding-left: 0px;
+	    margin-top: 30px;
+	}
+	.call-desc {
+	    text-align: left;
+	}
+	.navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
+	    max-height: 100% !important;
+	}
+
+}
+@media screen and (min-width: 768px) {
+	.carousel-indicators {
+	   bottom: 20px !important;
+	}
+}
